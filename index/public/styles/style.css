@@ -1,0 +1,85 @@
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+a {
+    background-color: transparent;
+}
+
+img {
+    border: 0;
+}
+
+button {
+    overflow: visible;
+}
+
+/*.brand-seperator {
+    width: 40px;
+    height: 40px;
+}*/
+
+.navbar-brand {
+    display: block;
+    background-image: linear-gradient(105deg, rgb(252, 248, 199) 39%, rgb(248, 247, 222) 96%);
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    padding: 1em 2em;
+    overflow: hidden;
+}
+
+.img1:hover, .img2:hover {
+    transform: scale(1.05);
+}
+
+.nav-list {
+    padding: 0;
+}
+
+.li1{
+    background-color: aliceblue;
+}
+.li2 {
+    height: 500px;
+    background-color: rgb(229, 250, 250);
+    margin-bottom: 0;
+}
+
+.page2 {
+    position: absolute;
+    left: 800;
+    top: 700;
+}
+
+.排版标题, .主页标题 {
+    font-size: xx-large;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 93, 93);
+}
+
+.排版正文, .主页正文 {
+    font-size: 2.7ex;
+    font-weight: 200;
+    color:rgb(100, 93, 93);
+}
+
+#scroll {
+    overflow: hidden;
+    /*background-color: #FFFFCC;*/
+    margin: 0;
+    padding: 0;
+    height: 200;
+}
